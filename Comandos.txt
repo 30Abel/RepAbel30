@@ -1,0 +1,11 @@
+git --version
+git clone https://github.com/30Abel/RepAbel30.git
+git status
+git config --global user.name "30Abel"
+git config --global user.email "eliabel486@gmail.com"
+git add -A .
+git status
+git commit -a -m "Mensaje"
+git status
+git pull
+git push
