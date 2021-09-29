@@ -24,6 +24,5 @@ public class EstCondicionalE{
     System.out.println("Hello World");
     ventaLapices();
 
-
   }
 }
