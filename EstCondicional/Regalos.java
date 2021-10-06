@@ -27,7 +27,7 @@ public class Regalos{
     //datos de salida
     System.out.println("Usted puede elegir los siguentes regalos:"+regalo);
   }
-  public static void main(String[] arg){
-  algoritmoRegalos();
-}
+    public static void main(String[] arg){
+    algoritmoRegalos();
+  }
 }
