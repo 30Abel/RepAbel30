@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class TrabajoDos{
   static Scanner sc = new Scanner(System.in);
-  static void salarioyPuntos(){
+  static void salarioyPuntosEAMQ(){
     // definir variables
     double puntos =0;
     String  bono ="";
@@ -28,6 +28,6 @@ public class TrabajoDos{
     System.out.println("Usted a ganado el siguiente bono :"+bono);
   }
     public static void main(String[] arg){
-    salarioyPuntos();
+    salarioyPuntosEAMQ();
   }
 }
