@@ -1,10 +1,9 @@
 import java.util.Scanner;
-public class Brayner4BA {
+public class TrabajoCuatro{
     static void operacionesEAMQ(){
         Scanner in = new Scanner(System.in);
         //definir variables
         double n1, n2, opcion, resultado;
-      
         //datos de entrada
         System.out.print("Ingresa el primer valor: ");
         n1 = in.nextDouble();
@@ -34,7 +33,7 @@ public class Brayner4BA {
          if(opcion==5)
             resultado=Math.pow ( n1 , n2 ) ;
         //datos de salida
-        System.out.println("Valor de resultado: " + resultado);
+        System.out.println("El resultado de su operación es: " + resultado);
         
     }
        public static void main(String[] args) {
