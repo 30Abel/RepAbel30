@@ -114,7 +114,7 @@ static Scanner sc = new Scanner(System.in);
     }
        
 
-  static void menuOpciones(){
+  static void opcionesdealgoritmosEAMQ(){
 int opcion=0;
 String msg="Eliga el algoritmo que desea probar\n 1=Calcular promedio Final \n 2=Calcular Salario Minimo \n 3=Identificar tipo de Vacuna \n 4=Calcular la Operación que desee";
 System.out.println(msg);
@@ -134,10 +134,7 @@ while(opcion!=0){
 }
 
  public static void main(String[] arg){
- //algoritmoRegalos();
-  //pagoPolizas();
-  //mesdelAnho();
-  menuOpciones();
+ opcionesdealgoritmosEAMQ();
 
 }
 
