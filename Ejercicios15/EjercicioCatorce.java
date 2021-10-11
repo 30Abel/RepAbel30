@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class EjercicioCatorce{
 static Scanner sc = new Scanner(System.in);
-static void algoritmoCalificacion(){
+static void algoritmoCalificacionEAMQ(){
   // definir variables
   int num;
   String letra="";
@@ -28,6 +28,6 @@ static void algoritmoCalificacion(){
 
 }
 public static void main(String[] arg){
- algoritmoCalificacion();
+ algoritmoCalificacionEAMQ();
 }
 }

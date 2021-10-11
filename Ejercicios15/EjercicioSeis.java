@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class EjercicioSeis{
   static Scanner sc = new Scanner(System.in);
-  static void algoritmoDescuento(){
+  static void algoritmoDescuentoEAMQ(){
     // definir variables
     double costo =0;
     String  descuento ="";
@@ -25,6 +25,6 @@ public class EjercicioSeis{
     System.out.println("Por la compra de tal artículo alcanzo el:"+descuento);
   }
     public static void main(String[] arg){
-    algoritmoDescuento();
+    algoritmoDescuentoEAMQ();
   }
 }

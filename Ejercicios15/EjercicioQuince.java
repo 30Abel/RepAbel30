@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class EjercicioQuince{
 static Scanner sc = new Scanner(System.in);
-static void algoritmoDiasSemana(){
+static void algoritmoDiasSemanaEAMQ(){
   // definir variables
   int semNum;
   String semLetra="";
@@ -23,6 +23,6 @@ static void algoritmoDiasSemana(){
   System.out.println("La semana numero " +semNum+ " es: " +semLetra);
 }
 public static void main(String[] arg){
-  algoritmoDiasSemana();
+  algoritmoDiasSemanaEAMQ();
 }
 }

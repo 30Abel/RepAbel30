@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class EjercicioOnce{
   static Scanner sc = new Scanner(System.in);
-  static void algoritmoBonoTrabajador(){
+  static void algoritmoBonoTrabajadorEAMQ(){
     // definir variables
     int antiguedad =0;
     String  bono ="";
@@ -34,6 +34,6 @@ public class EjercicioOnce{
     System.out.println("Por el tiempo de sus servicios usted tiene un bono de :"+bono);
   }
     public static void main(String[] arg){
-    algoritmoBonoTrabajador();
+    algoritmoBonoTrabajadorEAMQ();
   }
 }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class EjercicioTres{
   static Scanner sc = new Scanner(System.in);
-  static void algoritmoRegalos(){
+  static void algoritmoRegalosEAMQ(){
     // definir variables
     double monto =0;
     String  regalo ="";
@@ -28,6 +28,6 @@ public class EjercicioTres{
     System.out.println("Usted puede elegir los siguentes regalos:"+regalo);
   }
     public static void main(String[] arg){
-    algoritmoRegalos();
+    algoritmoRegalosEAMQ();
   }
 }

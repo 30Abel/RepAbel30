@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class EjercicioNueve{
   static Scanner sc = new Scanner(System.in);
-  static void algoritopoliza(){
+  static void algoritopolizaEAMQ(){
     // definir variables
     double monto =0;
     String plan, alcohol, lentes, enfermedad;
@@ -28,6 +28,6 @@ public class EjercicioNueve{
     System.out.println("Usted debe de pagar el monto de: $ "+costoPago );
   }
   public static void main(String[] arg){
-  algoritopoliza();
+  algoritopolizaEAMQ();
 }
 }

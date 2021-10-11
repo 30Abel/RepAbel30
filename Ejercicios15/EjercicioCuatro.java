@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class EjercicioCuatro{
   static Scanner sc = new Scanner(System.in);
-  static void algoritmoUsoDeEstacionamiento(){
+  static void algoritmoUsoDeEstacionamientoEAMQ(){
     // definir variables
     double hora =0;
     String  costo ="";
@@ -29,6 +29,6 @@ public class EjercicioCuatro{
    }
     
    public static void main(String[] arg){
-   algoritmoUsoDeEstacionamiento();
+   algoritmoUsoDeEstacionamientoEAMQ();
    }
 }

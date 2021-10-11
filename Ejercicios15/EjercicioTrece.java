@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class EjercicioTrece{
   static Scanner sc = new Scanner(System.in);
-  static void algoritmoViajeAlumnos(){
+  static void algoritmoViajeAlumnosEAMQ(){
     // definir variables
     int cantidad =0;
     String  costo ="";
@@ -28,6 +28,6 @@ public class EjercicioTrece{
     System.out.println("El costo de pasaje de cada uno es de :"+costo);
   }
     public static void main(String[] arg){
-    algoritmoViajeAlumnos();
+    algoritmoViajeAlumnosEAMQ();
   }
 }
