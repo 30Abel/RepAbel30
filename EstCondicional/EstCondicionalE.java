@@ -13,7 +13,8 @@ public class EstCondicionalE{
    //Proceso
     if (cantidadLap>=1000) {
       pago=cantidadLap*0.85;
-    } else {
+    } 
+    else {
       pago=cantidadLap*0.90;
     }
    //Datos de salida

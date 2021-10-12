@@ -30,9 +30,28 @@ public class EstCiclicas{
     System.out.println("La cantidad de numeros menores o igual a cero son :"+numMenCero+"\nLa cantidad de numeros mayores a cero son :"+numMayCero);
 
   }
+
+
+
+  static void factorial(){
+  //definir variables
+  int n, resulF=1;
+  //datos de entrada 
+  System.out.println("Ingrese un numero para calcular factorial");
+  n=sc.nextInt();
+  //proceso
+  if (n>1){
+    for(int i=1; i<=n; i++){
+    resulF=resulF*i;
+    System.out.println("i= "+i+ " resulF= "+resulF);
+   }
+  }
+  //datos de salida
+  System.out.println("El factorial de "+n+ " es :" +resulF);
+  }
   
   public static void main(String [] arg){
-   contarNumMenorCeroMayorCeroWhile();
-  
+   //contarNumMenorCeroMayorCeroWhile();
+   factorial();
   }
 }

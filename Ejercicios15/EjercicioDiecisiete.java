@@ -18,7 +18,7 @@ public class Regalos{
     else if(pago>=10000 && pago<20000){
       paquete="\ndos pares de zapatos\ntres camisas\ntres pantalones";
       }
-   else if(pago<10000>){
+   else if(pago<10000){
      paquete="\nun par de zapatos\ndos camisas\ndos pantalones";
    }
    else{
