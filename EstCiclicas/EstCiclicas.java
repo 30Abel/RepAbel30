@@ -49,9 +49,47 @@ public class EstCiclicas{
   //datos de salida
   System.out.println("El factorial de "+n+ " es :" +resulF);
   }
+
+
+  static void sumaParesRangoAB(){
+    //definir variables y datos de entrada
+    System.out.println("Introdusca el valor inicial  A");
+    int a=sc.nextInt();
+    System.out.println("Introdusca el valor final B");
+    int b=sc.nextInt();
+    int suma=0;
+    //proceso
+    for (int i=a; i<=b; i++){
+      if (i%2==0){
+        suma=suma+i;
+      }
+    }
+    //datos de salida
+    System.out.println("La suma de numeros pares es :" +suma);
+  }
+
+  static void menuOpciones(){
+int opcion=0;
+String msg="Eliga el algoritmo que desea probar\n 1=ssss\n2=factorial\n3=sumaParesRangoAB";
+System.out.println(msg);
+opcion=sc.nextInt();
+
+while(opcion!=0){
+    switch(opcion){
+        case 1: contarNumMenorCeroMayorCeroWhile(); break;
+        case 2: factorial(); break;
+        case 3: sumaParesRangoAB(); break;
+        default: System.out.println("Opcion no existe!");
+    }
+  System.out.println(msg);
+  opcion=sc.nextInt();    
+}
+}
+
   
   public static void main(String [] arg){
    //contarNumMenorCeroMayorCeroWhile();
-   factorial();
+   //factorial();
+   menuOpciones();
   }
 }
