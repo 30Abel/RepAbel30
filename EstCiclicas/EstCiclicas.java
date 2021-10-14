@@ -68,9 +68,13 @@ public class EstCiclicas{
     System.out.println("La suma de numeros pares es :" +suma);
   }
 
+<<<<<<< HEAD
 
 
 static void menuOpciones(){
+=======
+  static void menuOpciones(){
+>>>>>>> 7df1b210621e6558355f21e37580d4495bc272a3
 int opcion=0;
 String msg="Eliga el algoritmo que desea probar\n 1=ssss\n2=factorial\n3=sumaParesRangoAB";
 System.out.println(msg);
@@ -88,6 +92,7 @@ while(opcion!=0){
 }
 }
 
+<<<<<<< HEAD
  static void validarContrasenha(){
     //definicion de variables
     String mensaje, password, usuario, msgrespuesta="";
@@ -123,11 +128,17 @@ while(opcion!=0){
 
 
 
+=======
+>>>>>>> 7df1b210621e6558355f21e37580d4495bc272a3
   
   public static void main(String [] arg){
    //contarNumMenorCeroMayorCeroWhile();
    //factorial();
+<<<<<<< HEAD
    //menuOpciones();
    validarContrasenha();
+=======
+   menuOpciones();
+>>>>>>> 7df1b210621e6558355f21e37580d4495bc272a3
   }
 }
