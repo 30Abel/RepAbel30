@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Regalos{
+public class EjercicioDiecisiete{
   static Scanner sc = new Scanner(System.in);
   static void algoritmoPaqueteEAMQ(){
     // definir variables

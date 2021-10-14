@@ -6,7 +6,7 @@ public class EjercicioCuatro{
     double hora =0;
     String  costo ="";
     //datos de entrada
-    System.out.println("Ingrese las horas de uso del estacionamiento");
+    System.out.println("Ingrese las horas usadas en el estacionamiento");
     hora=sc .nextDouble();  
     //proceso
     if (hora>=1 && hora<=2){
@@ -25,7 +25,7 @@ public class EjercicioCuatro{
       costo="No paga nada";
    }
    //datos de salida
-    System.out.println(" Tienen que pagar el monto de  :"+costo);
+    System.out.println("Ustedes tienen que pagar el monto de  :"+costo);
    }
     
    public static void main(String[] arg){

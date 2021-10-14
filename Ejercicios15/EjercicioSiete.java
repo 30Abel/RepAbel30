@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class EjercicioSieteEAMQ{
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+public class EjercicioSiete{
+  static Scanner in = new Scanner(System.in);
+      static void algoritmoBonoBecaEAMQ(){  
         double beca, edad, promedio;
-        System.out.print("Ingresa el valor de edad: ");
+        System.out.print("Ingrese la edad: ");
         edad = in.nextDouble();
         in.nextLine();
-        System.out.print("Ingresa el valor de promedio: ");
+        System.out.print("Ingresa el promedio: ");
         promedio = in.nextDouble();
         in.nextLine();
         beca=0;
@@ -24,8 +24,11 @@ public class EjercicioSieteEAMQ{
         if(edad>18&&promedio>=6&&promedio<8)
             beca=100;
         if(promedio<6)
-            System.out.println("Se env\u00EDa carta de invitaci\u00F3n a estudiar m\u00E1s");
+            System.out.println("Usted debe estudiar mas y prepararse para la proxima");
             System.out.println("Valor de beca: " + beca);
             in.close();
+    }
+    public static void main(String[] args) {
+    algoritmoBonoBecaEAMQ();
     }
 }

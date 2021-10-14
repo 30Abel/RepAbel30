@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class EjercicioDiecinueve{
-    static void algoritmocavunaEAMQ(){ 
+    static void algoritmoVacunaEAMQ(){ 
         Scanner in = new Scanner(System.in);
         //variables
         int edad, sexo;
@@ -28,6 +28,6 @@ public class EjercicioDiecinueve{
             System.out.println("Le corresponde la vacuina de tipo C");
     }
       public static void main(String[] args) {
-      algoritmocavunaEAMQ();
+      algoritmoVacunaEAMQ();
 }
 }   
