@@ -52,28 +52,72 @@ public class App{
         System.out.println((a!=b)?"verdadero":"falso");
         //adicionales
         int x=4;
-        System.out.println(--x);
-        System.out.println(x++);
-        System.out.println(x--);
-        System.out.println(x+=2);
-        System.out.println(x-=2);
-        System.out.println(x*=2);
-        System.out.println(x/=2);
-        System.out.println(x%=2);
-        
+        System.out.println(--x);//3
+        System.out.println(x++);//3  --- 4        
+        System.out.println(x--);//4 ---3
 
-
-
-
+        System.out.println(x+=2);//5
+        System.out.println(x-=2);//3
+        System.out.println(x*=2);//6
+        System.out.println(x/=2);//3
+        System.out.println(x%=2);//1
     }
 
     public static void controlStructure() {
-        
+        //EC.Secuemciales
+        //Calular el area del triangulo
+        int b=4, h=2;
+        System.out.println((b*h)/2);
+        //E.C. condicionales
+        if(b>h){ //Condicional simple
+            System.out.println("B es Mayor");
+        }
+
+        if(b>h){ //Condicional compuesta / bifurcada
+            System.out.println("B es Mayor");
+        }else{
+            System.out.println("H es Mayor");
+        }
+
+        if(b>h){ //Condicional compuesta anidada
+            System.out.println("B es Mayor");
+        }else if(b==h){
+            System.out.println("Ambos son Iguales");
+        }else{
+            System.out.println("B es menor");
+        }
+        //EC. Condicional Multiple
+        int opcion=0;
+        switch (opcion) {
+            case 1: {
+                System.out.println("Uno");
+                
+            } break;
+            case 2: System.out.println("Dos"); break;
+            case 3: System.out.println("Tres"); break;
+            case 4: System.out.println("Cuatro"); break;        
+            default: System.out.println("no existe"); break;
+        }
+        //E.C Repetitivas
+        //while
+            while (opcion==0) {
+                System.out.println("Realizar operacion");
+                opcion++;
+            }
+        //for
+        for (int i = -1; i < opcion; i++) {
+            System.out.println("Realizar operacion");
+        }
+        //do while
+        do {
+            System.out.println("Realizar operacion");
+            opcion++;            
+        } while (opcion==0);
     }
 
     public static void main( String[] args ){
-
         //System.out.println( "Hello World!" );
-        operadores();
+        //operadores();
+        controlStructure();
     }
-}
+    }
