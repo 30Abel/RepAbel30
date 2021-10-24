@@ -1,9 +1,5 @@
 import java.util.Scanner;
-<<<<<<< HEAD
 public class EjercicioCinco{
-=======
-public class EjercicioCincoEAMQ{
->>>>>>> f1ac37245613dd30bff5705306451d4d1cee8d53
   static Scanner sc=new Scanner(System.in);
   static void algoritmoPersonaMenorEAMQ(){
   //declarar variables 
