@@ -27,7 +27,23 @@ public class App{
     }
 
     public static void operadores() {
-        
+        int a=7;
+        int b=2;
+        //operadores aritmeticos
+        System.out.println("suma:"+(a+b));
+        System.out.println("resta:"+(a-b));
+        System.out.println("division:"+(a/b));
+        System.out.println("multiplicacion:"+(a*b));
+        System.out.println("modulo:"+(a%b));
+        System.out.println("potencia:"+(Math.pow(a, b)));
+        //operadores logicos
+        int ologx=(a>b && a!=b)?1:0;
+        System.out.println(ologx);
+        int ologxx=(a>b || a==b)?1:0;
+        System.out.println(ologxx);
+        int ologxxx=!(a>b || a==b)?1:0;
+        System.out.println(ologxxx);
+
     }
 
     public static void controlStructure() {
@@ -36,6 +52,7 @@ public class App{
 
     public static void main( String[] args ){
 
-        System.out.println( "Hello World!" );
+        //System.out.println( "Hello World!" );
+        operadores();
     }
 }
