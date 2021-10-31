@@ -32,7 +32,6 @@ public class EstCiclicas{
 
   }
 
-
   static void factorial(){
   //definir variables
   int n, resulF=1;
@@ -68,23 +67,13 @@ public class EstCiclicas{
     System.out.println("La suma de numeros pares es :" +suma);
   }
 
-<<<<<<< HEAD
-
-
 static void menuOpciones(){
-=======
-<<<<<<< HEAD
 
-
-static void menuOpciones(){
-=======
-  static void menuOpciones(){
->>>>>>> 7df1b210621e6558355f21e37580d4495bc272a3
->>>>>>> f1ac37245613dd30bff5705306451d4d1cee8d53
 int opcion=0;
 String msg="Eliga el algoritmo que desea probar\n 1=ssss\n2=factorial\n3=sumaParesRangoAB";
 System.out.println(msg);
 opcion=sc.nextInt();
+
 
 while(opcion!=0){
     switch(opcion){
@@ -98,10 +87,6 @@ while(opcion!=0){
 }
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f1ac37245613dd30bff5705306451d4d1cee8d53
  static void validarContrasenha(){
     //definicion de variables
     String mensaje, password, usuario, msgrespuesta="";
@@ -135,27 +120,12 @@ while(opcion!=0){
   }
 
 
-
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 7df1b210621e6558355f21e37580d4495bc272a3
->>>>>>> f1ac37245613dd30bff5705306451d4d1cee8d53
   
   public static void main(String [] arg){
    //contarNumMenorCeroMayorCeroWhile();
    //factorial();
-<<<<<<< HEAD
-   //menuOpciones();
-   validarContrasenha();
-=======
-<<<<<<< HEAD
-   //menuOpciones();
-   validarContrasenha();
-=======
+   //sumaParesRangoAB();
+   //validarContrasenha();
    menuOpciones();
->>>>>>> 7df1b210621e6558355f21e37580d4495bc272a3
->>>>>>> f1ac37245613dd30bff5705306451d4d1cee8d53
   }
 }

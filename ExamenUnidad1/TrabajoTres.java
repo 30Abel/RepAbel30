@@ -24,7 +24,7 @@ public class TrabajoTres{
             System.out.println("Le corresponde la vacuina de tipo A");
         if(sexo==1&&edad>=16&&edad<70)
             System.out.println("Le corresponde la vacuina de tipo B");
-        if(edad>70)
+        if(edad>=70)
             System.out.println("Le corresponde la vacuina de tipo C");
     }
       public static void main(String[] args) {
