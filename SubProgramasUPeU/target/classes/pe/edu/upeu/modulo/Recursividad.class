@@ -1,0 +1,38 @@
+Êþº¾   3 A  pe/edu/upeu/modulo/Recursividad  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this !Lpe/edu/upeu/modulo/Recursividad; 	factorial (J)J
+     n J 
+StackMapTable factorialBig (J)Ljava/math/BigInteger;
+      java/math/BigInteger
+    java/lang/String    valueOf (J)Ljava/lang/String;
+  "  # (Ljava/lang/String;)V
+  % & ' multiply .(Ljava/math/BigInteger;)Ljava/math/BigInteger;
+  )  * (I)Ljava/lang/String; 	fibonacci
+  - +         
+fibonaccix valAnt I valNew valAux i fibonacciBig 8 0 : 1
+  < = ' add Ljava/math/BigInteger; 
+SourceFile Recursividad.java !               /     *· ±    
+                 
+          W     
+”ž 
+*
+e¶ i­
+­    
+           
+          
+                     m     (
+”ž *
+e¶ » Y¸ · !¶ $°» Y¸ (· !°    
+                   (  
+     (          +      _     
+”ž *
+e¶ ,* .e¶ ,a­­    
+                     
+               0      É     2>66
+”ž %6§ 6`6>„…”›ÿë…­­    
+   & 	      !  "  #  $  % ! " , ' 0 )    >    2  
+     2     0 1 2   - 3 2   * 4 2    5 2      ÿ     ú   6      ò     U» Y7· !N» Y9· !:» Y7· !:
+”ž &6§ :-¶ ;:N„…”›ÿé°» Y¸ · !°    
+   & 	   -   . & / , 0 0 1 8 2 ; / F 4 I 6    >    U  
+     U    
+ K 1 >   @ 3 >    5 4 >  )  5 2      ÿ ,       ú 
+  ?    @

@@ -1,5 +1,5 @@
 import java.util.Scanner; 
-public class TrabajoUno{
+public class TrabajoCinco{
 static Scanner sc = new Scanner(System.in);
   static void calcularpromedioEAMQ(){
   Scanner in = new Scanner(System.in);
