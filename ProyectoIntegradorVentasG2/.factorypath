@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+
 <factorypath>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>
+=======
+<factorypath>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>
+>>>>>>> 16683c65e72840cf275cf7076847b8ef904fd94c
