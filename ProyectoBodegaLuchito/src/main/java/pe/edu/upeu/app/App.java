@@ -14,7 +14,6 @@ public class App {
     
     dao=new ProductoDao();
     dao.ingresarProducto();
-
         
     }
 }
