@@ -30,6 +30,10 @@ public long leer(long valor, String msg){
   return valor;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 16683c65e72840cf275cf7076847b8ef904fd94c
 public double leer(double valor, String msg){  
   System.out.print(msg+": ");
   try{
@@ -61,6 +65,18 @@ public String leer(String valor, String msg){
   }
   System.out.println();
   return valor;
+<<<<<<< HEAD
+=======
+=======
+public char leer(char valor, String msg){  
+
+return ' ';
+}
+public String leer(String valor, String msg){  
+
+return "";
+>>>>>>> b2168dbccb9d283bcb0b071faa20da937f1e2779
+>>>>>>> 16683c65e72840cf275cf7076847b8ef904fd94c
 }
 
 }

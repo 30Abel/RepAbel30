@@ -8,5 +8,5 @@ git status
 git add -A .
 git commit -a -m "Mensaje"
 git status
-git pull
-git push
+git pull   "solo si trabajan mas usuarios" (actualiza los cambios del repositorio remoto al local) 
+git push    (completar funsion en el repositorio remoto)
